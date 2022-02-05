@@ -1,0 +1,316 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic
+T_opt
+!s110 1633582905
+VIlgjK>L2Z50LH1h[3?2Ql2
+04 6 6 work ssm_tb behave 1
+=1-98fa9b3af360-615e7f37-375-293c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4e;61
+R0
+T_opt1
+!s110 1633641483
+VBXP=b4?b?W5@<X57:;lfG0
+04 16 6 work uart_tx_basic_tb behave 1
+=1-98fa9b3af360-615f640a-2bd-26b0
+R1
+n@_opt1
+R2
+Essm
+Z3 w1633582806
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 dC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic
+Z10 8C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/ssm.vhd
+Z11 FC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/ssm.vhd
+l0
+L6
+VnVV:3aGMNGMVb@gY2WiF^0
+!s100 Q8h<89PN@010EGo^HN3bO3
+Z12 OL;C;10.4e;61
+32
+Z13 !s110 1633582890
+!i10b 1
+Z14 !s108 1633582890.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/ssm.vhd|
+Z16 !s107 C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/ssm.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1
+Artl
+R4
+R5
+R6
+R7
+R8
+DEx4 work 3 ssm 0 22 nVV:3aGMNGMVb@gY2WiF^0
+l22
+L15
+VL?n_m9i>E:HYbLSblgk]n3
+!s100 H8F^fAzjzo1j?eBA^PLdD2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Essm_tb
+Z19 w1633582823
+Z20 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z21 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R5
+R6
+R7
+R8
+R9
+Z22 8C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/ssm_tb.vhd
+Z23 FC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/ssm_tb.vhd
+l0
+L15
+V6Me=:78DPmXY`1hVc8Dc`2
+!s100 e72lT_mJ`nQ3kNF4kNUmJ1
+R12
+32
+Z24 !s110 1633582893
+!i10b 1
+Z25 !s108 1633582893.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/ssm_tb.vhd|
+Z27 !s107 C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/ssm_tb.vhd|
+!i113 0
+R17
+R18
+Abehave
+R20
+R21
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 ssm_tb 0 22 6Me=:78DPmXY`1hVc8Dc`2
+l35
+L18
+V==PU8LPOlS@4R[MZbFV]B1
+!s100 HdQ2D94n154<R_2U0N_Ch3
+R12
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R17
+R18
+Ptb_utilities_pkg
+R4
+R21
+R5
+R6
+R7
+R8
+Z28 w1617659014
+R9
+Z29 8C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd
+Z30 FC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd
+l0
+L9
+VcYiYSkQ^8]JoDbahm`H7J3
+!s100 22<W7TUn[bAX9om`8YDO@3
+R12
+32
+b1
+Z31 !s110 1617682546
+!i10b 1
+Z32 !s108 1617682546.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd|
+Z34 !s107 C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd|
+!i113 0
+R17
+R18
+Bbody
+Z35 DPx4 work 16 tb_utilities_pkg 0 22 cYiYSkQ^8]JoDbahm`H7J3
+R4
+R21
+R5
+R6
+R7
+R8
+32
+R31
+l0
+L36
+VP>C?FmERzlPINLZJ5nZTl3
+!s100 kSV?ZY4GXEm7V3;EMfC9?0
+R12
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R17
+R18
+Euart_tb
+Z36 w1617682800
+R35
+R20
+R21
+R4
+R5
+R6
+R7
+R8
+R9
+Z37 8C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/uart_tx_basic_tb.vhd
+Z38 FC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/uart_tx_basic_tb.vhd
+l0
+L15
+V66W[Q]HSC:Lzc>zPfCoPH0
+!s100 GPH1<P?IQ_>njl1<ZR]cQ0
+R12
+33
+Z39 !s110 1617683450
+!i10b 1
+Z40 !s108 1617683450.000000
+Z41 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/uart_tx_basic_tb.vhd|
+Z42 !s107 C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/uart_tx_basic_tb.vhd|
+!i113 0
+Z43 o-work work -2008 -explicit
+R18
+Abehave
+R35
+R20
+R21
+R4
+R5
+R6
+R7
+R8
+DEx4 work 7 uart_tb 0 22 66W[Q]HSC:Lzc>zPfCoPH0
+l51
+L18
+VceAK7h6Nn=M3a1^e43_o`3
+!s100 S7D5o@<5JRY=jeKO9^N:b3
+R12
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R43
+R18
+Euart_tx_basic
+Z44 w1633641410
+R4
+R5
+R6
+R7
+R8
+R9
+Z45 8C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_tx_basic.vhd
+Z46 FC:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_tx_basic.vhd
+l0
+L11
+VUZQ0TJCMUHb_VS5>h33GZ0
+!s100 ?]7ML6ok0M[^87GE@NSRc0
+R12
+32
+Z47 !s110 1633641428
+!i10b 1
+Z48 !s108 1633641428.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_tx_basic.vhd|
+Z50 !s107 C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_tx_basic.vhd|
+!i113 0
+R17
+R18
+Artl
+R4
+R5
+R6
+R7
+R8
+DEx4 work 13 uart_tx_basic 0 22 UZQ0TJCMUHb_VS5>h33GZ0
+l43
+L29
+VdG[7A7<J8`1KD`UP1U_R23
+!s100 IlA]HKQ_Fg3=Y:R7JT9lM0
+R12
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 0
+R17
+R18
+Euart_tx_basic_tb
+Z51 w1633638266
+R35
+R20
+R21
+R4
+R5
+R6
+R7
+R8
+R9
+R37
+R38
+l0
+L15
+VR;<^]CnL:?NX8_>eZl[J90
+!s100 cV6MPfe54TNjc7FbZI9S]0
+R12
+33
+Z52 !s110 1633638392
+!i10b 1
+Z53 !s108 1633638392.000000
+R41
+R42
+!i113 0
+R43
+R18
+Abehave
+R35
+R20
+R21
+R4
+R5
+R6
+R7
+R8
+DEx4 work 16 uart_tx_basic_tb 0 22 R;<^]CnL:?NX8_>eZl[J90
+l54
+L18
+Vj35ZUA5n7iS47NACmCd@P2
+!s100 :m04AA=XBHm3IW`c??B4L2
+R12
+33
+R52
+!i10b 1
+R53
+R41
+R42
+!i113 0
+R43
+R18

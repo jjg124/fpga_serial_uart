@@ -1,0 +1,130 @@
+# Reading C:/questasim64_10.4e/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic/uart_rx_basic.mpf
+# Loading project uart_rx_basic
+# Compile of uart_rx_basic_tb.vhd was successful.
+vsim -novopt work.uart_rx_basic_tb
+# vsim -novopt work.uart_rx_basic_tb 
+# Start time: 18:03:02 on Apr 05,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading std.standard
+# Refreshing C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic/work.uart_rx_basic_tb(behave)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_utilities_pkg(body)
+# Loading work.uart_rx_basic_tb(behave)
+# Loading work.uart_rx_basic(rtl)
+# ** Warning: (vsim-7) Failed to open VHDL file "uut_output_golden.txt" in rb mode.
+# 
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+run -all
+# Input Data: 00111111  Output Data: 00111111
+# Input Data: 00000000  Output Data: 00000000
+# Input Data: 00000001  Output Data: 00000001
+# Input Data: 00000010  Output Data: 00000010
+# Input Data: 00000011  Output Data: 00000011
+# Input Data: 00000100  Output Data: 00000100
+# Input Data: 00000001  Output Data: 00000001
+# Input Data: 00000010  Output Data: 00000010
+# Input Data: 00000100  Output Data: 00000100
+# Input Data: 00001000  Output Data: 00001000
+# Input Data: 00010000  Output Data: 00010000
+# Input Data: 11111110  Output Data: 11111110
+# Input Data: 11111101  Output Data: 11111101
+# Input Data: 11111011  Output Data: 11111011
+# Input Data: 11110111  Output Data: 11110111
+# Input Data: 11101111  Output Data: 11101111
+# ** Note: Test : UART BYTE Write       : OK
+#    Time: 1388885 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+# ** Note: Test : UART Counting Pattern : OK
+#    Time: 1388885 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+# ** Note: Test : UART Walking Ones     : OK
+#    Time: 1388885 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+# ** Note: Test : UART Walking Zeros    : OK
+#    Time: 1388885 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+# ** Note: Data structure takes 5899736 bytes of memory
+#          Process time 0.41 seconds
+#          stop
+#    Time: 1388885 ns  Iteration: 0  Instance: /uart_rx_basic_tb
+# Break in Process uut_stimulus at C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic/uart_rx_basic_tb.vhd line 98
+quit -sim
+# End time: 23:13:43 on Apr 05,2021, Elapsed time: 5:10:41
+# Errors: 0, Warnings: 2
+# reading C:/questasim64_10.4e/win64/../modelsim.ini
+# Loading project uart_tx_basic_tb
+# Compile of uart_tx_basic_tb.vhd failed with 2 errors.
+# Compile of uart_tx_basic.vhd was successful.
+# Compile of tb_utilities_pkg.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of uart_tx_basic_tb.vhd was successful.
+vsim -novopt work.uart_tx_basic
+# vsim -novopt work.uart_tx_basic 
+# Start time: 23:17:09 on Apr 05,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading std.standard
+# Refreshing C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/2-Uart_tx_basic/work.uart_tx_basic(rtl)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_tx_basic(rtl)
+add wave -r /*
+run -all
+# Causality operation skipped due to absence of debug database file
+run -all
+quit -sim
+# End time: 23:18:48 on Apr 05,2021, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 2
+# Compile of uart_tx_basic_tb.vhd failed with 2 errors.
+# Compile of uart_tx_basic_tb.vhd was successful with warnings.
+# Compile of uart_tx_basic_tb.vhd was successful.
+vsim -novopt work.uart_tx_basic
+# vsim -novopt work.uart_tx_basic 
+# Start time: 23:31:23 on Apr 05,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_tx_basic(rtl)
+add wave -r /*
+run -all
+run -all
+run -all
+quit -sim
+# End time: 23:35:14 on Apr 05,2021, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 1
+vsim -novopt work.uart_tx_basic
+# vsim -novopt work.uart_tx_basic 
+# Start time: 23:35:45 on Apr 05,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_tx_basic(rtl)
+run -all
+quit -sim

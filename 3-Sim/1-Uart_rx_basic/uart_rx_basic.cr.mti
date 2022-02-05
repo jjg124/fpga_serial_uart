@@ -1,0 +1,38 @@
+C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic/uart_rx_basic_tb.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/1-Uart_rx_basic/uart_rx_basic_tb.vhd
+QuestaSim-64 vcom 10.4e Compiler 2016.04 Apr  9 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Loading package tb_utilities_pkg
+-- Compiling entity uart_rx_basic_tb
+-- Compiling architecture behave of uart_rx_basic_tb
+-- Loading entity UART_RX_BASIC
+
+} {} {}} C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_rx_basic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_rx_basic.vhd
+QuestaSim-64 vcom 10.4e Compiler 2016.04 Apr  9 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity UART_RX_BASIC
+-- Compiling architecture rtl of UART_RX_BASIC
+
+} {} {}} C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/tb_utilities_pkg.vhd
+QuestaSim-64 vcom 10.4e Compiler 2016.04 Apr  9 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling package tb_utilities_pkg
+-- Compiling package body tb_utilities_pkg
+-- Loading package tb_utilities_pkg
+
+} {} {}}

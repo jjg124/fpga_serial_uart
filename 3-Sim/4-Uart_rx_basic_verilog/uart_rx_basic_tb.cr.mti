@@ -1,0 +1,16 @@
+C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_rx_basic.v {1 {vlog -work work -vopt -stats=none C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/2-Code/uart_rx_basic.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module uart_rx_basic
+
+Top level modules:
+	uart_rx_basic
+
+} {} {}} C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/4-Uart_rx_basic_verilog/uart_rx_basic_tb.v {1 {vlog -work work -vopt -stats=none C:/YouTube/1-FPGA_Developer_Tutorials/1-Serial_Interfaces/1-UART/3-Sim/4-Uart_rx_basic_verilog/uart_rx_basic_tb.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module uart_rx_basic
+-- Compiling module uart_rx_basic_tb
+
+Top level modules:
+	uart_rx_basic_tb
+
+} {} {}}
